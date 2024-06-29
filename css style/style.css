@@ -1,0 +1,77 @@
+*{
+    font-family: sans-serif;
+}
+/* banner style */
+.banner{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+.banner-details{
+  position: absolute;
+  left: 847px;
+  right: 228px;
+  top: 216px;
+  text-align: right;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 90px;
+    
+}
+.banner-description{
+    color: rgb(68, 67, 67);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 50px;
+word-wrap: break-word;
+}
+.banner-button{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(241, 91, 34);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+/* Failur details section */
+
+.failures-content{
+    display: flex;
+    padding-top: 250px;
+    width: 70%;
+}
+.failure-details{
+    padding-left: 100px;
+    padding-top: 100px;
+    text-align: left;
+    text-align: left;
+}
+.failure-image{
+    padding-left: 400px;
+}
+
+.failure-details>h3{
+    font-size: 40px;
+    font-weight: 400px;
+    color: rgb(41, 22, 22);
+    letter-spacing: normal;
+
+}
+.failure-details ul {
+    list-style: none;
+    padding-left: 0%;
+  }
+  
+.failure-details  ul li:before {
+    content: '✓';
+    color: rgb(0, 217, 105);
+    font-weight: 1000;
+    padding-right: 20px;
+
+  }
