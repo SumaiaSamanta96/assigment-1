@@ -98,3 +98,29 @@ word-wrap: break-word;
     font-weight: 100;
     color: rgb(115, 114, 114);
   }
+  /* Call Now section styles */
+  .call-now{
+    padding: 250px 400px 300px 500px;
+    background-image: linear-gradient(90.00deg, rgb(241, 91, 34),rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+    background-size: 1100px 300px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 200px;
+  }
+  .call-title{
+    font-weight: 100;
+    font-size: 40px;
+    margin-right: 50%;
+    padding-bottom: 10px;
+    color: aliceblue;
+
+  }
+  .call-btn{
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(241, 91, 34);
+    font-size: 15px;
+
+  }
+  
