@@ -120,7 +120,43 @@ word-wrap: break-word;
     border-radius: 5px;
     background-color: rgb(255, 255, 255) ;
     color: rgb(241, 91, 34);
+    font-weight: bold;
     font-size: 15px;
+    border: 0;
 
   }
+  /* footer styles */
+  .contact-info{
+    background-color: black;
+    height: 500px;
+    color: azure;
+    display: flex;
+    padding-top: 100px;
+  }
+  .contact-details{
+    width: 20%;
+    padding-left: 300px;
+    padding-right: 100px;
+  }
+  .contact-details h2{
+    font-size: 50px;
+    font-weight: 50;
+  }
+  .subscribe{
+    padding-left: 400px;
+    padding-top: 50px;
+  }
+  .subscribe h3{
+    font-size: 30px;
+  }
+  .subscribe input{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: black;
+  }
+  
   
